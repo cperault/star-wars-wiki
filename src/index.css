@@ -1,0 +1,69 @@
+body {
+  margin: 0px auto;
+  padding: 40px;
+  background-color: black;
+  background-image: url("media/space-travel-background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-width: 300px;
+  max-width: 950px;
+}
+
+.app-container {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  background: blur;
+  padding: 20px;
+  box-shadow: 5px 5px 3px red, 10px 10px 3px blue, 15px 15px 3px green;
+}
+
+.app-container h1 {
+  color: black;
+  text-align: center;
+}
+
+.people-container {
+  width: 100%;
+  text-align: center;
+}
+
+.person-container {
+  display: inline-flex;
+  flex-direction: column;
+  font-size: 15px;
+  background-color: white;
+  border: solid black 2px;
+  border-radius: 5px;
+  text-align: center;
+  height: 200px;
+  width: 200px;
+  margin: 5px;
+  padding-bottom: 20px;
+}
+
+.person-container ul {
+  list-style: none;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.people-container-pagination-current-page {
+  color: black;
+  width: 30%;
+  font-size: 1.5rem;
+  margin: 0px auto;
+}
+
+.people-container-pagination-controls {
+  display: inline-flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 20%;
+}
+
+.person-label {
+  font-weight: bold;
+}
